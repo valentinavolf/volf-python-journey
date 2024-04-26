@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Volf's art gallery!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <style>
+        body { 
+            background-image: url('{{ url_for('static', filename="background.jpg")}}');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="headline" style="text-align: left;">Welcome to my art gallery!</h1>
+        <a href="/about" class="button">About me</a>
+        <div class="overlay">
+            <a href="/gallery" class="button">Enter</a>
+        </div>
+    </div>
+</body>
+</html>

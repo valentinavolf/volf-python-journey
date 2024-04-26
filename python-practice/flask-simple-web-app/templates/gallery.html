@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustrations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Illustrations</h1>
+        <div class="gallery">
+            <div class="row">
+                <img src="{{ url_for('static', filename='image1.jpg') }}" alt="Illustration no.1">
+                <img src="{{ url_for('static', filename='image2.jpg') }}" alt="Illustration no.2">
+                <img src="{{ url_for('static', filename='image3.jpg') }}" alt="Illustration no.3">
+            </div>
+            <div class="row">
+                <img src="{{ url_for('static', filename='image4.jpg') }}" alt="Illustration no.4">
+                <img src="{{ url_for('static', filename='image5.jpg') }}" alt="Illustration no.5">
+                <img src="{{ url_for('static', filename='image6.jpg') }}" alt="Illustration no.6">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

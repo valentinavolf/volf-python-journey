@@ -1,0 +1,3 @@
+Disclaimer:
+
+The images used in this project are sourced from Google Images and are utilized solely for educational purposes. The creator of this project does not claim any ownership or rights over these images. They are included as visual materials to enhance the educational experience of this project. If you are the owner of any of these images and wish for them to be removed, please contact iuliana.galea@gmail.com and they will be promptly taken down.

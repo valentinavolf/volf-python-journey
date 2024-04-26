@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="headline">About Me</h1>
+        <div class="content">
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum felis nec nisi vehicula, id feugiat magna tempor. 
+                Donec pharetra quam quis libero ultricies, in molestie est faucibus. Mauris nec mauris euismod, posuere quam vel, viverra ligula. 
+                Nullam varius eros sit amet posuere consequat. Vestibulum at ligula auctor, tincidunt justo eget, convallis nisi. 
+                Mauris interdum purus id velit ultricies, nec ullamcorper sem sodales. Pellentesque quis massa est. Donec convallis sem a turpis lobortis, 
+                nec finibus nunc bibendum. Sed non nisl quis felis rhoncus scelerisque et ac nulla. Phasellus eget libero id sapien congue elementum ut a metus.
+            </p>
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum felis nec nisi vehicula, id feugiat magna tempor. 
+                Donec pharetra quam quis libero ultricies, in molestie est faucibus. Mauris nec mauris euismod, posuere quam vel, viverra ligula. 
+                Nullam varius eros sit amet posuere consequat. Vestibulum at ligula auctor, tincidunt justo eget, convallis nisi. 
+                Mauris interdum purus id velit ultricies, nec ullamcorper sem sodales. Pellentesque quis massa est. Donec convallis sem a turpis lobortis, 
+                nec finibus nunc bibendum. Sed non nisl quis felis rhoncus scelerisque et ac nulla. Phasellus eget libero id sapien congue elementum ut a metus.
+            </p>
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum felis nec nisi vehicula, id feugiat magna tempor. 
+                Donec pharetra quam quis libero ultricies, in molestie est faucibus. Mauris nec mauris euismod, posuere quam vel, viverra ligula. 
+                Nullam varius eros sit amet posuere consequat. Vestibulum at ligula auctor, tincidunt justo eget, convallis nisi. 
+                Mauris interdum purus id velit ultricies, nec ullamcorper sem sodales. Pellentesque quis massa est. Donec convallis sem a turpis lobortis, 
+                nec finibus nunc bibendum. Sed non nisl quis felis rhoncus scelerisque et ac nulla. Phasellus eget libero id sapien congue elementum ut a metus.
+            </p>
+        </div>
+        <div class="gallery">
+            <img src="{{ url_for('static', filename='image1.jpg') }}" alt="Image 1">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" alt="Image 2">
+            <img src="{{ url_for('static', filename='image3.jpg') }}" alt="Image 3">
+        </div>
+    </div>
+</body>
+</html>
