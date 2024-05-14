@@ -1,0 +1,5 @@
+admin1 password1
+user2 secret2
+exampleUser examplePass
+john.doe letmein
+linux-ansible 1234
