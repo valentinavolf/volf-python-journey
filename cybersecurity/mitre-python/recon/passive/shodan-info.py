@@ -1,7 +1,7 @@
 from shodan import Shodan 
 import json
 
-api = Shodan("JAYiUKBxU1XiVP4tYx4fqXIJQEyeD3EO")
+api = Shodan("insert-your-API-key")
 
 class ShodanHostDetails: 
     def print_host_details(self, ip_address):
